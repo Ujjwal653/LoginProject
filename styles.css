@@ -1,0 +1,126 @@
+body {
+    color:#fff;
+    display: flex;
+    background: #181818;  
+}
+
+.left {
+    flex: 3;
+    display: block;
+    padding: 5%;
+    align-items: center;
+    font-family: Arial;
+}
+
+.top-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-form {
+    text-align: center;
+}
+
+form {
+    padding-top: 60px;
+    text-align: left;
+}
+
+form.text {
+    color: #181818;
+}
+
+
+#login {
+    width: 100%;
+    padding: 10px;
+    background-color: #0074ab;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#create {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(50, 61, 61);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-bottom: 3px;
+}
+
+#username, #password {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #181818;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 10px;
+    color: #2594bd;
+    text-decoration: none;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#copyright {
+    margin-top:15px;
+}
+
+a {
+    font-family: Arial;
+    color: white;
+}
+
+.right {
+    flex: 6;
+    background-image: url("images/bg-gtm-2020.png");
+    background-color: black;
+}
+
+.right-content {
+    margin-top: 25%;
+    padding-left: 70px;
+}
+
+#try {
+    font-family: Arial;
+    border: none;
+    border-radius: 3px;
+    width: 30%;
+    height: 1cm;
+    margin-top: 20px;
+    background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+    color: #fff;
+    cursor: pointer;
+}
